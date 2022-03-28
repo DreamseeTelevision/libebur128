@@ -17,8 +17,8 @@ jobs:
             os: macos-10.15
             install_dir: ~/libebur128
             cmake_extras: -DCMAKE_BUILD_TYPE=RelWithDebInfo
-          - name: Windows 2019
-            os: windows-2019
+          - name: Windows Latest
+            os: windows-latest
             install_dir: C:\libebur128
             cmake_extras: -DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake
             cmake_config: --config RelWithDebInfo
